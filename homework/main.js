@@ -52,15 +52,10 @@ var b = getRandomInt();
 var div = document.createElement('div');
 div.className = 'myDiv';
 
-var text = document.createTextNode('Some text');
-div.appendChild(text);
 var colorPrep = `rgb(${r},${g},${b})`;
 console.log(colorPrep);
-document.div.style.background = colorPrep;
-document.div.style.whidth = '200px';
-document.div.style.heigth = '200px';
 
-body.appendChild(div);
+document.body.appendChild(div);
 
 
 
